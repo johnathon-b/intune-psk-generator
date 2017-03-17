@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Intune PSK Generator</title>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="./app/assets/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./app/assets/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./app/assets/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./app/assets/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./app/assets/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./app/assets/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./app/assets/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./app/assets/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./app/assets/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./app/assets/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./app/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./app/assets/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./app/assets/favicon-16x16.png">
+    <link rel="manifest" href="./app/assets/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./app/assets//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('main.js').catch(function(err){ console.error(err); });
+    </script>
+  </head>
+
+  <body>
+    <my-app>Loading AppComponent content here ...</my-app>
+  </body>
+</html>
