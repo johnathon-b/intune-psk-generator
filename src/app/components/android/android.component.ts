@@ -27,7 +27,7 @@ export class AndroidComponent {
 
   dataValue3 = 
 `</nonBroadcast>
-	</SSIDConfig>',
+	</SSIDConfig>
 	<connectionType>ESS</connectionType>
 	<connectionMode>auto</connectionMode>
 	<MSM>
