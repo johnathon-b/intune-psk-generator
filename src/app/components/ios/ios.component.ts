@@ -90,7 +90,7 @@ downloadFile() {
     var blob = new Blob([xmlData], { type: 'text/xml' });
     var url= window.URL.createObjectURL(blob);
     a.href = url;
-    a.download = this.ssid + ' iOS WiFi PSK Profile.mobileconfig';
+    a.download = this.ssid + 'iOS WiFi PSK Profile.mobileconfig';
     a.click();
 }
 
