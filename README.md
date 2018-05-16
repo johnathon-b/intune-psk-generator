@@ -2,6 +2,10 @@
 
 This project is used to generate Intune PSK configuration files for both iOS and Android devices to be pushed out to Mobile Device Management suites such as Microsoft Intune, AirWatch and MobileIron. 
 
+## Install
+
+Run `npm install` on the cloned repo to install all the required packages and dependancies.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
